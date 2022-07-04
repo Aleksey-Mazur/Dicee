@@ -31,8 +31,24 @@ img {
   width: 70%;
 }
 
+button {
+  border: none;
+  border-radius: 3em;
+  background-color: #40bb75;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  margin: 4% auto;
+  padding: 1em 3em;
+  transition: all ease-in-out 250ms;
+}
+
+button:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
 footer {
-  margin-top: 5%;
   color: #eeeeee;
   text-align: center;
   font-family: "Indie Flower", cursive;
